@@ -4,27 +4,44 @@ body {
    display: flex;
    justify-content: space-between;
    background-color: black;
-   padding-left: 200px;
-   padding-right: 200px;
+   padding-left: 270px;
+   padding-right: 270px;
 }
 .im_g {
     background-image: url("bgimg.gif");
     height: 100vh;
-    min-width: 30%;
+    min-width: 40%;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    padding-top: 180px;
+    justify-content:center;
 }
 img {
-    height: 150px;
+    height: 130px;
     }
 .side_txt {
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Norse', sans-serif;
     color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.photo_creds {
+    color:rgb(193, 190, 190);
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+a {
+    color:rgb(193, 190, 190);
 }
 .frm {
     background-color: white;
     height: inherit;
-    min-width: 70%;
+    min-width: 60%;
 }
