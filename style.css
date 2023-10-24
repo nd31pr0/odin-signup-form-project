@@ -50,3 +50,38 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
 }
+.main-form {
+    display: block;
+    padding-right: 15%;
+}
+#row1, #row2, #row3 {
+    display: flex;
+    justify-content: space-between;
+}
+.item1, .item2 {
+    display: inline-block;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 3px;
+    font-size: 12px;
+  }
+  input {
+    font-family: 'Nunito', sans-serif;
+    border-radius: 3px;
+    border: 1px rgb(216, 215, 215) solid;
+    margin: 0 auto auto auto;
+    padding-top: 2.5% ;
+    width: 250px;
+  }
+  button {
+    background-color: green;
+    width: 25%;
+    height: 60%;
+    border-radius: 5px;
+  }
