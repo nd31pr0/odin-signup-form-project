@@ -44,4 +44,9 @@ a {
     background-color: white;
     height: inherit;
     min-width: 60%;
+    padding-left: 40px;
+    padding-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
