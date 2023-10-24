@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/norse');
 body {
    margin: 0; 
    display: flex;
@@ -11,6 +12,16 @@ body {
     height: 100vh;
     min-width: 30%;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 150px;
+    }
+.side_txt {
+    font-size: 50px;
+    font-family: 'Norse', sans-serif;
+    color: white;
 }
 .frm {
     background-color: white;
