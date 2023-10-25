@@ -28,4 +28,4 @@ The Odin Project!
 
 ## Output of this project
 
-
+![Output_snapshot](photos/output.png)
