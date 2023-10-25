@@ -93,10 +93,11 @@ label {
   input {
     font-family: 'Nunito', sans-serif;
     border-radius: 3px;
-    border: 1px rgb(216, 215, 215) solid;
+    border: 1px #E5E7EB solid;
     margin: 0 auto auto auto;
     padding-top: 2.5% ;
     width: 140%;
+
   }
   .form-foot {
     padding-left: 40px;
