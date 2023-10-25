@@ -121,3 +121,6 @@ label {
   .form-foot > p a {
 color: #596D48;
 }
+#pass-err {
+    color: red;
+}

@@ -54,6 +54,7 @@
                 <div class="item1">
                     <label for="password">PASSWORD</label>
                     <input class="error" id="password" type="password">
+                    <div id="pass-err"></div>
                 </div>
                 <div class="item2">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
@@ -62,9 +63,10 @@
             </div>
         </div>
         <div class="form-foot">
-            <button>Create Account</button>
+            <button onclick="validate()">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
