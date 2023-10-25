@@ -25,6 +25,13 @@ body {
 img {
     height: 130px;
     }
+.logo {
+    display: flex;
+    background-color: rgba(0,0,0,.4);
+    /* padding: 0 120px; */
+    width: 100%;
+    justify-content: center;
+}
 .side_txt {
     font-size: 80px;
     font-family: 'Norse', sans-serif;
