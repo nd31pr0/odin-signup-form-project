@@ -97,7 +97,9 @@ label {
     margin: 0 auto auto auto;
     padding-top: 2.5% ;
     width: 140%;
-
+  }
+  input:focus {
+    border: 2px #blue solid;
   }
   .form-foot {
     padding-left: 40px;
