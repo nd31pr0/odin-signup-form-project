@@ -1,4 +1,4 @@
-
+// function presently only handles comparison of password and confirm password fields
 const validate = function (){
     const password = document.getElementById("password");
     const confirmPassword = document.getElementById("confirm-password");
